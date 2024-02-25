@@ -8,22 +8,21 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
+    // Outlets for the labels in your storyboard
+    @IBOutlet weak var stateLabel: UILabel!
+    @IBOutlet weak var capitalLabel: UILabel!
+    
+    // The property to hold the state and capital information
+    var stateCapital: StateCapital?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // Set the labels to the values passed from the previous view controller
+        if let stateCapital = stateCapital {
+            stateLabel.text = stateCapital.state
+            capitalLabel.text = stateCapital.capital
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

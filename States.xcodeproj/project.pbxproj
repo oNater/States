@@ -16,6 +16,8 @@
 		DAFDA8072B8AD6A6004E2E8B /* StatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA8062B8AD6A6004E2E8B /* StatesTests.swift */; };
 		DAFDA8112B8AD6A6004E2E8B /* StatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA8102B8AD6A6004E2E8B /* StatesUITests.swift */; };
 		DAFDA8132B8AD6A6004E2E8B /* StatesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA8122B8AD6A6004E2E8B /* StatesUITestsLaunchTests.swift */; };
+		DAFDA8202B8AD93A004E2E8B /* StateCapital.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA81F2B8AD93A004E2E8B /* StateCapital.swift */; };
+		DAFDA8242B8AE1AC004E2E8B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDA8232B8AE1AC004E2E8B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DAFDA80C2B8AD6A6004E2E8B /* StatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFDA8102B8AD6A6004E2E8B /* StatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesUITests.swift; sourceTree = "<group>"; };
 		DAFDA8122B8AD6A6004E2E8B /* StatesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAFDA81F2B8AD93A004E2E8B /* StateCapital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCapital.swift; sourceTree = "<group>"; };
+		DAFDA8232B8AE1AC004E2E8B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				DAFDA7EF2B8AD6A5004E2E8B /* AppDelegate.swift */,
 				DAFDA7F12B8AD6A5004E2E8B /* SceneDelegate.swift */,
 				DAFDA7F32B8AD6A5004E2E8B /* ViewController.swift */,
+				DAFDA8232B8AE1AC004E2E8B /* SecondViewController.swift */,
+				DAFDA81F2B8AD93A004E2E8B /* StateCapital.swift */,
 				DAFDA7F52B8AD6A5004E2E8B /* Main.storyboard */,
 				DAFDA7F82B8AD6A6004E2E8B /* Assets.xcassets */,
 				DAFDA7FA2B8AD6A6004E2E8B /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 				DAFDA7F42B8AD6A5004E2E8B /* ViewController.swift in Sources */,
 				DAFDA7F02B8AD6A5004E2E8B /* AppDelegate.swift in Sources */,
 				DAFDA7F22B8AD6A5004E2E8B /* SceneDelegate.swift in Sources */,
+				DAFDA8242B8AE1AC004E2E8B /* SecondViewController.swift in Sources */,
+				DAFDA8202B8AD93A004E2E8B /* StateCapital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
