@@ -48,7 +48,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetails",
            let destinationVC = segue.destination as? SecondViewController,
-           let stateCapital = sender as? StateCapital { // Corrected struct name
+           let stateCapital = sender as? StateCapital { 
             destinationVC.stateCapital = stateCapital
         }
     }
